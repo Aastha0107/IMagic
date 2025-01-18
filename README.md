@@ -32,6 +32,8 @@ Model is trained on about 700 images
 Output of this includes images with better resolution (reduced blur) compared to input low resolution images.
 ### Final Pipeline
 In final pipeline all these three models are deployed and loaded along with their summary. However, resolution model is not working efficiently in the pipeline might be due to compatibility issues. So, images are enhanced with noise removal and light enhancement models.
+###  Final Testing Dataset
+This includes the images on which final pipeline is tested.
 ### FINAL DELIVERABLE
 Final outcome of this project includes denoised image with better lightning. However in the outputs processed images are also shown.
 ### TECH STACK
@@ -47,6 +49,7 @@ Final outcome of this project includes denoised image with better lightning. How
 - **tqdm** - Displays progress bars for iterative tasks
 ### Environment
 Jupyter Notebook or Google Colab for running the notebook
+
 
 This README provides an overview of the IMagic project, including the description of all three models deployed in the final pipeline and tech stack required for it. It aims to be informative for viewers and collaborators referring to this repository.
   
